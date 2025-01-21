@@ -3,7 +3,11 @@ import Image from 'next/image'
 
 export default function GetInvolved() {
     return (
+<<<<<<< HEAD
         <div className="flex flex-col justify-center items-center h-screen bg-cover bg-center bg-gray-100" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1620841713108-18ad2b52d15c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80')" }}>
+=======
+        <div className="flex flex-col justify-center items-center h-screen bg-cover bg-center bg-gray-100" style={{ backgroundImage: "url('https://media.discordapp.net/attachments/972456002844766228/1097041013832433774/photo-1544027993-37dbfe43562a.png?width=1554&height=1036')" }}>
+>>>>>>> d57529cc8ba565bf72afbacdf03228a86e64021f
             <div className="text-center">
                 <h1 className="text-7xl text-white font-bold mb-4">Get Involved</h1>
                 <p className="mb-8 text-xl text-white font-bold">We&apos;re always welcoming new members and voices to Sahai and we&apos;d love to have you join us!</p>

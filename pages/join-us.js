@@ -26,31 +26,19 @@ const jobs = [
 
 export default function JoinUs() {
     return (
-<<<<<<< HEAD
         <div className="  justify-center items-center h-screen bg-cover bg-center bg-brown-100" style={{ backgroundImage: "#ffffff" }}>
-=======
-        <div className="  justify-center items-center h-screen bg-cover bg-center bg-gray-100" style={{ backgroundImage: "url('/background-image.jpg')" }}>
->>>>>>> d57529cc8ba565bf72afbacdf03228a86e64021f
             <div className="container mx-auto px-4 py-8">
                <h1 className={`text-7xl font-bold my-8 text-[#926D65] text-center ${fredricka.className}`}
             >Open Roles</h1>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {jobs.map(job => (
-<<<<<<< HEAD
                         <div key={job.id} className="border-8 p-10 rounded-lg flex flex-col justify-between">
-=======
-                        <div key={job.id} className="border p-8 rounded-lg flex flex-col justify-between">
->>>>>>> d57529cc8ba565bf72afbacdf03228a86e64021f
                             <div>
                                 <h2 className="text-2xl font-bold mb-4">{job.title}</h2>
                                 <p className="mb-4">{job.description}</p>
                             </div>
                             <div>
-<<<<<<< HEAD
                                 <a href={"https://forms.gle/uueV7sPdFQtbDx339"} target="_blank" rel="noopener noreferrer" className="text-white bg-[#956E66] border py-2 px-8 focus:outline-none hover:bg-[#E2BA9B] rounded text-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105rounded">Apply Now</a>
-=======
-                                <a href={"https://forms.gle/uueV7sPdFQtbDx339"} target="_blank" rel="noopener noreferrer" className="text-white bg-[#956E66] border-0 py-2 px-8 focus:outline-none hover:bg-[#E2BA9B] rounded text-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105rounded">Apply Now</a>
->>>>>>> d57529cc8ba565bf72afbacdf03228a86e64021f
                             </div>
                         </div>
                     ))}
